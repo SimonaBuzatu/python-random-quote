@@ -7,7 +7,7 @@ def main():
   f.close()
 
   last = 13
-  rnd = random.randit(0,last)
+  rnd = random.randint(0,last)
   print(quotes[rnd])
 
 if __name__== "__main__":
